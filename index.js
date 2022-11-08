@@ -12,7 +12,7 @@ const app = express();
 app.get('/', (req, res)=>{
     res.send('Hello');
 })
-app.get('/api/get', (req, res)=>{
+app.get('/api/main', (req, res)=>{
     res.send('Hiiiiii');
 })
 app.listen(3000,()=>{
